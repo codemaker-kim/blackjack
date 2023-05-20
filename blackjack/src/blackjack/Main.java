@@ -11,10 +11,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("*** 블 - 랙 - 잭 ***");
 		System.out.println();
-		System.out.println("게임을 시작하려면 1, 종료는 2");
-		checker = sc.nextInt();
 		
 		while(true) {
+			System.out.println("게임을 시작하려면 1, 종료는 2");
+			checker = sc.nextInt();
 			if(checker == 2) {
 				break;
 			}
